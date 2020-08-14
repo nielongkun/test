@@ -24,8 +24,10 @@ public class Test {
 			 result=tool.merge(result, rtemp);
 		 }
 
-			System.out.println("远程冲突文件");
+		
 		 System.out.println("修改本地文件");
+		
+		System.out.println("远程冲突文件");
 		 return result;
 		
 	}
