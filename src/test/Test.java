@@ -23,6 +23,8 @@ public class Test {
 			 Map<String, Map<Integer, Double>> rtemp=Centrmain(temp1,temp3);
 			 result=tool.merge(result, rtemp);
 		 }
+
+			System.out.println("远程冲突文件");
 		 System.out.println("修改本地文件");
 		 return result;
 		
